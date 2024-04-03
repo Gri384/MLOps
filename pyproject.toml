@@ -1,1 +1,12 @@
- # Провести настройки линтеров и форматеров в pyproject.toml, прописать основные параметры инструментов
+[tool.ruff]
+# Включение расширений для проверки
+extend-include = ["*.ipynb"]
+
+# Допустимая длина строки
+line-length = 88
+
+indent-width = 4
+# Целевая версия  python
+target-version = "py38"
+
+#С настройками выставленными по умолчанию можно ознакомиться на сайте https://docs.astral.sh/ruff/configuration/
